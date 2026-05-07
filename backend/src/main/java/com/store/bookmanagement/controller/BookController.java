@@ -32,7 +32,7 @@ public class BookController {
 	        return bookService.addBook(book);
 	    }
 
-	    // Get All Books
+	    // Get All Books 
 	    @GetMapping
 	    public List<Book> getAllBooks() {
 
@@ -53,6 +53,6 @@ public class BookController {
 	        return bookService.deleteBook(id);
 	    }
 
-
+//Controller to know update
 }
 
